@@ -22,7 +22,7 @@
       "key": "hongniu_xml",
       "name": "🐂 红牛资源(XML)",
       "type": 0,
-      "api": "http://www.hongniuzy.com/api.php/provide/vod/at/xml/",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnyun/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -31,7 +31,7 @@
       "key": "hongniu_json",
       "name": "🐂 红牛资源(JSON)",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
