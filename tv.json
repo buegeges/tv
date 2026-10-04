@@ -1,0 +1,133 @@
+{
+  "wallpaper": "",
+  "lives": [
+    {
+      "name": "📺 直播线路",
+      "type": 0,
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/YanG-1989/TVBox/main/live.txt",
+      "epg": "https://epg.112114.xyz/",
+      "logo": "https://ghproxy.net/https://raw.githubusercontent.com/YanG-1989/TVBox/main/logo.png"
+    },
+    {
+      "name": "📡 备用直播",
+      "type": 0,
+      "url": "https://cdn.jsdelivr.net/gh/Guovin/TV/iptv/live.txt",
+      "epg": "https://epg.112114.xyz/",
+      "logo": ""
+    }
+  ],
+  "urls": [],
+  "sites": [
+    {
+      "key": "hongniu_xml",
+      "name": "🐂 红牛资源(XML)",
+      "type": 0,
+      "api": "http://www.hongniuzy.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "hongniu_json",
+      "name": "🐂 红牛资源(JSON)",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "wujin",
+      "name": "⚡ 无尽资源",
+      "type": 1,
+      "api": "https://api.wujinapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "guangsu",
+      "name": "🚀 光速资源",
+      "type": 1,
+      "api": "https://api.gszyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tiankong",
+      "name": "🌌 天空资源",
+      "type": 1,
+      "api": "https://api.tiankongapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "wolong",
+      "name": "🐉 卧龙资源",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "feisu",
+      "name": "🌀 飞速资源",
+      "type": 1,
+      "api": "https://m3u8.feisuzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "douban",
+      "name": "🎬 豆瓣热榜",
+      "type": 3,
+      "api": "https://api.douban.com/v2/movie/top250",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "categories": [
+          {"name": "电影", "value": "movie"},
+          {"name": "剧集", "value": "tv"},
+          {"name": "综艺", "value": "show"},
+          {"name": "动漫", "value": "anime"}
+        ]
+      }
+    }
+  ],
+  "parses": [
+    {
+      "name": "通用解析1",
+      "type": 1,
+      "url": "https://jx.jsonmc.com/?url=",
+      "ext": {
+        "flag": ["m3u8", "json", "红牛", "无尽", "光速", "天空", "卧龙", "飞速"]
+      }
+    },
+    {
+      "name": "通用解析2",
+      "type": 1,
+      "url": "https://parse.bmm365.com/api.php?url=",
+      "ext": {
+        "flag": ["m3u8", "json"]
+      }
+    },
+    {
+      "name": "备用解析",
+      "type": 1,
+      "url": "https://jx.aidouer.net/?url=",
+      "ext": {
+        "flag": ["m3u8", "json"]
+      }
+    }
+  ],
+  "flags": ["m3u8", "json", "红牛", "无尽", "光速", "天空", "卧龙", "飞速", "豆瓣"],
+  "spider": "",
+  "ijk": {
+    "mediacodec": false
+  }
+}
